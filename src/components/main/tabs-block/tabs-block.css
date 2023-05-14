@@ -1,0 +1,49 @@
+.tabs-block {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+.tab-content {
+  height: 100%;
+  min-height: 0;
+}
+
+nav {
+  flex-shrink: 0;
+  height: 2.5rem;
+  width: ;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-bar-now,
+.tab-bar-details,
+.tab-bar-forecast {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: black;
+  border-top: 1px solid black;
+}
+
+.tab-bar-now,
+.tab-bar-details {
+  border-right: 1px solid black;
+}
+
+.tab-bar-now:hover,
+.tab-bar-details:hover,
+.tab-bar-forecast:hover {
+  cursor: pointer;
+}
+
+.chosen {
+  background-color: black;
+  color: white;
+}
